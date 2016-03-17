@@ -1,0 +1,19 @@
+.chart-container {
+	padding: 5px;
+	margin: 10px;
+	border: solid 1px #ccc;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: black;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	font-size: 12px;
+	font-family: "Trebuchet MS", "Helvetic", sans-serif;
+	fill: #555;
+	pointer-events: none;
+}

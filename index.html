@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" ng-app="angularSimpleBar">
+<head>
+    <meta charset="utf-8">
+    <title>Angular D3 Simple Bar Chart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body ng-controller="SimpleBarController">
+
+	<div class="chart-container">
+		<simple-bar-chart chart-config="barChartConfig"></simple-bar-chart>
+	</div>
+
+	<!-- Angular and D3.js from CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.20/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.js"></script>
+
+	<!-- local -->
+	<script src="app.js"></script>
+	<script src="bar_chart.js"></script> <!-- custom bar chart class -->
+</body>
+</html>
